@@ -11,11 +11,13 @@ package week3;
  */
 public class OutOfScope {
     public static int addFive(int var) {
-         return var + 5;
+        String prof = "Chris";
+        int mynum = 17;
+        return var + 5;
     }
 
     public static void main(String[] args) {
-         addFive(2);
-         //System.out.println(var);
+        int result = addFive(2); 
+        System.out.println(result);
     }
 }
